@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="bekk.no.dartspill" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DartSpill</name>
+    <description>
+        Et enkelt spill laget med google dart
+    </description>
+    <author email="anders.hefre@bekk.no">
+        Anders Hefre
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="phonegap-version" value="3.5.0" />
+</widget>
